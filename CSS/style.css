@@ -1,3 +1,6 @@
+/* ============================= */
+/*        GLOBAL STYLES          */
+/* ============================= */
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +11,9 @@ body {
     text-align: center;
 }
 
+/* ============================= */
+/*        CONTAINER STYLES       */
+/* ============================= */
 .container {
     height: 70vh;
     display: flex;
@@ -15,6 +21,9 @@ body {
     align-items: center;
 }
 
+/* ============================= */
+/*          GAME BOARD           */
+/* ============================= */
 .game {
     height: 60vmin;
     width: 60vmin;
@@ -25,6 +34,9 @@ body {
     gap: 1.5vmin;
 }
 
+/* ============================= */
+/*           BOX STYLES          */
+/* ============================= */
 .box {
     height: 18vmin;
     width: 18vmin;
@@ -36,6 +48,9 @@ body {
     color: rgb(70, 4, 4);
 }
 
+/* ============================= */
+/*           BUTTONS             */
+/* ============================= */
 #reset-btn {
     padding: 1rem;
     font-size: 1.25rem;
@@ -54,6 +69,9 @@ body {
     border: none;
 }
 
+/* ============================= */
+/*        MESSAGE STYLES         */
+/* ============================= */
 #msg {
     color: #FFD700;
     font-size: 5vmin;
@@ -70,4 +88,28 @@ body {
 
 .hide {
     display: none;
+}
+
+/* ============================= */
+/*     WINNING BOX HIGHLIGHT     */
+/* ============================= */
+.winner {
+    background-color: gold;
+    color: black;
+    font-weight: bold;
+    animation: flash 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes flash {
+    0% {
+        background-color: gold;
+    }
+
+    50% {
+        background-color: orange;
+    }
+
+    100% {
+        background-color: gold;
+    }
 }
