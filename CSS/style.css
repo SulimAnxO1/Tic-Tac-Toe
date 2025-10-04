@@ -28,10 +28,11 @@ body {
 .box {
     height: 18vmin;
     width: 18vmin;
-    border: 1rem;
+    border-radius: 1rem;
     border: none;
     box-shadow: 0 0 1rem rgb(0, 0, 0);
     font-size: 8vmin;
+    /* background-color: whitesmoke; */
     color: rgb(70, 4, 4);
 }
 
@@ -40,4 +41,6 @@ body {
     font-size: 1.25rem;
     background-color: rgb(85, 5, 5);
     color: white;
+    border-radius: 1rem;
+    border: none;
 }
