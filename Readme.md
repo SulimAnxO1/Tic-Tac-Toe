@@ -59,8 +59,8 @@ This is a **web-based Tic-Tac-Toe game** for two players. The game detects **win
 
 ```text
 tic-tac-toe/
-│
-├─ index.html            # Main HTML file
+├─ HTML/
+│   └─ index.html        # Main HTML file            
 ├─ CSS/
 │   └─ style.css         # Styling and animations
 ├─ JavaScript/
