@@ -11,17 +11,14 @@ A **classic Tic-Tac-Toe game** built with **HTML, CSS, and JavaScript**. Play **
 ## Table of Contents
 
 1. [Project Overview](#project-overview)
-2. [Features](#features)
-3. [Usage](#usage)
-4. [File Structure](#file-structure)
-5. [HTML Guide](#html-guide)
-6. [CSS Guide](#css-guide)
-7. [JavaScript Guide](#javascript-guide)
-8. [Visual Grid & Winning Patterns](#visual-grid--winning-patterns)
-9. [Technologies Used](#technologies-used)
-10. [Screenshots](#screenshots)
-11. [Contributing](#contributing)
-12. [License](#license)
+2. [Features](#features-✨)
+3. [Usage](#usage-🎯)
+4. [File Structure](#file-structure-📁)
+5. [HTML Guide](#html-guide-📄)
+6. [CSS Guide](#css-guide-🎨)
+7. [JavaScript Guide](#javascript-guide-💻)
+8. [Visual Grid & Winning Patterns](#visual-grid--winning-patterns-🗺️)
+9. [Technologies Used](#technologies-used-🛠️)
 
 ---
 
