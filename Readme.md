@@ -11,7 +11,7 @@ A **classic Tic-Tac-Toe game** built with **HTML, CSS, and JavaScript**. Play **
 ## Table of Contents
 
 1. [Project Overview](#project-overview)
-2. [Features](#features-✨)
+2. [Features](#features ✨)
 3. [Usage](#usage-🎯)
 4. [File Structure](#file-structure-📁)
 5. [HTML Guide](#html-guide-📄)
