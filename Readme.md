@@ -71,9 +71,9 @@ tic-tac-toe/
 ├─ JavaScript/
 │   └─ app.js            # Game logic
 └─ README.md             # Project documentation
+```
 
-
-HTML Guide 📄
+## HTML Guide 📄
 
 Key Sections:
 
@@ -100,50 +100,46 @@ Key Sections:
 
 .box → Clickable squares for X/O
 
-#reset-btn → Clears board
+# reset-btn → Clears board
 
-#new-btn → Starts a new game
+# new-btn → Starts a new game
 
-
-CSS Guide 🎨
+## CSS Guide 🎨
 
 1. Global Styles
-* { margin: 0; padding: 0; }
-body { background-color: rgb(145,145,145); text-align: center; }
+
+- { margin: 0; padding: 0; }
+  body { background-color: rgb(145,145,145); text-align: center; }
 
 2. Container
 
 .container { height: 70vh; display: flex; justify-content: center; align-items: center; }
 
-
 3. Game Board
 
 .game { height: 60vmin; width: 60vmin; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 1.5vmin; }
-
 
 4. Boxes
 
 .box { height: 18vmin; width: 18vmin; border-radius: 1rem; border: none; box-shadow: 0 0 1rem rgb(0,0,0); font-size: 8vmin; color: rgb(70,4,4); }
 
-
 5. Buttons
 
-#reset-btn, #new-btn { padding: 1rem; font-size: 1.25rem; background-color: rgb(85,5,5); color: white; border-radius: 1rem; border: none; }
-
+# reset-btn, #new-btn { padding: 1rem; font-size: 1.25rem; background-color: rgb(85,5,5); color: white; border-radius: 1rem; border: none; }
 
 6. Messages
 
-#msg { color: #FFD700; font-size: 5vmin; }
+# msg { color: #FFD700; font-size: 5vmin; }
+
 .msg-container { height: 100vmin; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 4rem; }
 .hide { display: none; }
-
 
 7. Winning Highlight
 
 .winner { background-color: gold; color: black; font-weight: bold; animation: flash 0.5s ease-in-out infinite alternate; }
 @keyframes flash { 0% { background-color: gold; } 50% { background-color: orange; } 100% { background-color: gold; } }
 
-JavaScript Guide 💻
+## JavaScript Guide 💻
 
 Key Concepts:
 
@@ -163,7 +159,7 @@ enableBoxes() / disableBoxes() → Reset or lock the grid
 
 Event listeners handle clicks and buttons
 
-Visual Grid & Winning Patterns 🗺️
+## Visual Grid & Winning Patterns 🗺️
 
 Box Indices:
 [0] [1] [2] ← Top row
@@ -173,30 +169,27 @@ Box Indices:
 Winning Patterns:
 
 Horizontal: [0,1,2], [3,4,5], [6,7,8]
-Vertical:   [0,3,6], [1,4,7], [2,5,8]
-Diagonals:  [0,4,8], [2,4,6]
-
+Vertical: [0,3,6], [1,4,7], [2,5,8]
+Diagonals: [0,4,8], [2,4,6]
 
 ASCII Grid Examples
 
 Player X wins top row:
 
- X | X | X   ← Winning row
- O |   | O
-   | O |
-
+X | X | X ← Winning row
+O | | O
+| O |
 
 Player O wins diagonal:
 
- X | X | O
- X | O |
- O |   | X   ← Winning diagonal
+X | X | O
+X | O |
+O | | X ← Winning diagonal
 
-Technologies Used 🛠️
+## Technologies Used 🛠️
 
 HTML5 – Game structure
 
 CSS3 – Styling, layout, and animations
 
 JavaScript (ES6) – Game logic
-```
