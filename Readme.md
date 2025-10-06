@@ -62,6 +62,4 @@ Use Reset or New Game buttons to restart anytime.
 
 ✅ Add sound effects and animations for moves.
 
-✅ Mobile-optimized layout with touch gestures.
-
 ✅ Dark/Light theme toggle.
