@@ -3,8 +3,6 @@
 A classic **Tic-Tac-Toe** game built with **HTML, CSS, and JavaScript**.  
 Play against a friend locally, track turns, and enjoy interactive game highlights.
 
-🌐 Live Demo: [Play Here](https://tic-tac-toe-mini-game69.netlify.app/)
-
 ---
 
 ## 📸 Preview
