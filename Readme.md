@@ -21,25 +21,6 @@ Play against a friend locally, track turns, and enjoy interactive game highlight
 
 ---
 
-## 🛠️ Tech Stack
-
-- **HTML5** – Structure of the game board.
-- **CSS3** – Styling, layout, and winning animations.
-- **JavaScript (Vanilla JS)** – Game logic, winner detection, and interactivity.
-
----
-
-## 📂 Project Structure
-
-```bash
-.
-├── index.html        # Main game page
-├── style.css         # Styling for game board & UI
-├── script.js         # Game logic
-├── /image            # (Optional) Add screenshot or assets here
-└── README.md         # Documentation
-```
-
 ## 📖 How to Play
 
 The game alternates turns between Player O (⭕) and Player X (❌).
@@ -52,6 +33,8 @@ If all boxes are filled without a winner, the game ends in a Draw.
 
 Use Reset or New Game buttons to restart anytime.
 
+---
+
 ## 🔮 Possible Improvements (Future Enhancements)
 
 ✅ Add single-player mode with AI opponent.
@@ -61,3 +44,13 @@ Use Reset or New Game buttons to restart anytime.
 ✅ Add sound effects and animations for moves.
 
 ✅ Dark/Light theme toggle.
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5** – Structure of the game board.
+- **CSS3** – Styling, layout, and winning animations.
+- **JavaScript (Vanilla JS)** – Game logic, winner detection, and interactivity.
+
+
